@@ -53,7 +53,6 @@ def write_message_body_to_dir(message):
 
     with open(filename, 'w') as outfile:
         outfile.write(content)
-    return
 
 
 if __name__ == "__main__":
